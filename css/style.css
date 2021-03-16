@@ -1,0 +1,36 @@
+body{
+
+}
+
+.box_1{
+	width: 1180px;
+	height: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid; 
+}
+.title{
+	width; 999px;
+	height: 150px;
+	background-color: rgba(196, 196, 196, 1);
+}
+img.logo{
+	width: 413px;
+	height: 75px;
+	float: right;
+	margin-top: 15px;
+	margin-right: 15px;
+}
+.left_panel{
+	width: 208px;
+	height: 850px;
+	background-color: gray;
+	float: left;
+}
+.left_menu{
+	margin-top: 15px;
+	font-size: 25px;
+}
+ul{
+	list-style-type: none;
+}
