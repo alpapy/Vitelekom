@@ -22,7 +22,7 @@ img.logo{
 	margin-right: 15px;
 }
 .left_panel{
-	width: 208px;
+	width: 181px;
 	height: 850px;
 	background-color: gray;
 	float: left;
@@ -32,5 +32,33 @@ img.logo{
 	font-size: 25px;
 }
 ul{
+	width: 180px;
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 10pt;
+}
+li ul{
+	position: absolute;
+	display: none;
+	margin-left: 180px;
+	margin-top: 0em;
+}
+li a{
+	display: block;
+	padding: 5px;
+	border: 1px solid #ccc;
+	background-color: #f0f0f0;
+	border-bottom: none;
+}
+li a:hover{
+	color: #ffe;
+	background-color: #5488af;
+}
+li:hover ul{
+	display: block;
+}
+a{
+	text-decoration: none;
+	color : #000 !important;
 }
