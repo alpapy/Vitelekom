@@ -24,7 +24,7 @@ img.logo{
 .left_panel{
 	width: 181px;
 	height: 850px;
-	background-color: #53a393;
+	background-color: #d4d4d4;
 	float: left;
 }
 .left_menu{
@@ -48,7 +48,7 @@ li ul{
 li a{
 	display: block;
 	padding: 3px;
-	background-color: #1fa0e0;
+	background-color: #ed4a4a;
 	border-bottom: none;
 	transition: 0.3s;
 }
