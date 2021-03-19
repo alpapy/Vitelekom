@@ -6,8 +6,8 @@ body{
 	width: auto;
 	height: 1000px;
 	margin-left: auto;
-	margin-right: auto;
-	border-style: solid; 
+	margin-right: auto; 
+	outline: 1px solid;
 }
 .title{
 	width: auto;
@@ -43,23 +43,23 @@ li ul{
 	display: none;
 	margin-left: 180px;
 	margin-top: -1.6em;
-	transition: 0.5s;
+	transition: 0.3s;
 }
 li a{
 	display: block;
-	padding: 5px;
+	padding: 3px;
 	background-color: #1fa0e0;
 	border-bottom: none;
-	transition: 1s;
+	transition: 0.3s;
 }
 li a:hover{
 	color: #ffe;
 	background-color: #5488af;
-	transition: 1s;
+	transition: 0.3s;
 }
 li:hover ul{
 	display: block;
-	transition: 1s;
+	transition: 0.3s;
 }
 a{
 	text-decoration: none;
