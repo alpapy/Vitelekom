@@ -1,2 +1,0 @@
-# Vitelekom
-DeadLine Work
