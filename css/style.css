@@ -22,8 +22,8 @@ img.logo{
 	margin-right: 15px;
 }
 .left_panel{
-	width: 181px;
-	height: 850px;
+	width: auto;
+	height: 150px;
 	background-color: #d4d4d4;
 	float: left;
 }
@@ -32,30 +32,31 @@ img.logo{
 	font-size: 25px;
 }
 ul{
+	outline: 1px solid;
 	width: 180px;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	font-size: 15pt;
+	font-size: 17pt;
 }
 li ul{
-	position: absolute;
+	position: fixed;
 	display: none;
 	margin-left: 180px;
 	margin-top: -1.6em;
 	transition: 0.3s;
 }
 li a{
+	border-radius: 1px;
 	display: block;
 	padding: 3px;
-	background-color: #ed4a4a;
 	border-bottom: none;
 	transition: 0.3s;
 }
 li a:hover{
-	color: #ffe;
-	background-color: #5488af;
-	transition: 0.3s;
+  -webkit-transform: translateX(-1px);
+  transform: translateX(-1px);
+  background-color: #49a6d1;
 }
 li:hover ul{
 	display: block;
